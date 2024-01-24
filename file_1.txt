@@ -7,3 +7,4 @@ This is me practicing on a new branch and suggesting these changes.
 Adding a new line 
 
 Making an additional change to commit, but really I want to have another. 
+And another one. 
