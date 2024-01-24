@@ -1,0 +1,164 @@
+    1  git -- version
+    2  git --version
+    3  git config --global user.name "Emily Cook Bacon"
+    4  git config --list
+    5  git config --global user.email "e2cook98@byu.edu"
+    6  git config --global core.editor "code -- wait"
+    7  git config --global init.defaultBranch main
+   18  mkdir git-practice-emilycookbacon
+   19  cd git-practice-emilycookbacon/
+   35  cd '/c/Users/thema/Box/BYU/Winter 2024/stat386/git-practice-emilycookbacon'
+   43  cd /c/Users/thema/Box/BYU/Winter2024/Stat386/git-practice-emilycookbacon
+   48  git init
+   49  git status
+   50  git congif --global --add safe.directory C:/Users/thema/Box/BYU/Winter2024/Stat386
+   51  git config --global --add safe.directory C:/Users/thema/Box/BYU/Winter2024/Stat386
+   56  git init
+   57  git status
+   71  mkdir git-practice-emilycookbacon
+   72  cd git-practice-emilycookbacon/
+   75  git init
+   76  git status
+   80  git status
+   81  git add .
+   82  git commit -m "Create file_1 and file_2 after initializing git"
+   83  git log
+   84  git status
+   85  git add .
+   86  git commit -m "add title sentances to file1 and file2
+   87  git status
+   89  git log
+   92  git status
+   93  git status
+   94  git add .
+   95  git commit
+   96  touch .gitignore
+   99  git status
+  100  git add .
+  101  git commit -m "add gitingore and add api-keys to gitignore"
+  103  git status
+  104  git add .
+  105  git commit -m "add a Readme file"
+  106  git log
+  107  git status
+  108  git add .
+  109  git commit -m "add additional text and changes to file_1 and file_2"
+  110  git branch
+  111  git branch emily_new_branch
+  112  git switch emily_new_branch
+  113  git branch
+  114  git status
+  115  git add .
+  116  git commit -m "add additional text to file_1 and file_2 while practicing a new branch"
+  117  git log
+  119  git add .
+  120  git commit -m "add empty file"
+  122  git status
+  123  git add .
+  124  git commit -m "added and removed a new txt file"
+  125  git merge emily_new_branch
+  126  git switch main
+  127  git merge emily_new_branch
+  128  git branch features
+  129  git switch features
+  130  git log
+  131  git touch new_features.txt
+  132  git add .
+  133  git commit -m "add empty file"
+  135  git status
+  136  git add .
+  137  git commit -m "add empty file"
+  138  git status
+  139  git add .
+  140  git commit -m "add text to new_features text"
+  141  git switch main
+  142  git status
+  144  git status
+  145  git add .
+  146  git commit -m "add a new line to file_1"
+  147  git merge features
+  148  git log
+  149  git status
+  150  git add .
+  151  git commit -m "change text in new_features"
+  152  git switch features
+  153  git status
+  154  git add .
+  155  git commit -m "change text to some new text"
+  156  git switch main
+  157  git merge features
+  158  git status
+  159  git add .
+  160  git commit -m "merge features branch with main and resolve merge conflict"
+  161  git status
+  162  git branch -d features
+  163  git remote add origin git@github.com:emilycookbacon/git-practice-emilycookbacon.git
+  164  git push -u origin main
+  167  git clone git@github.com:emilycookbacon/git-practice-jessahal.git
+  169  cd git-practice-jessahal/
+  170  git branch feature-emilycookbacon
+  172  git status
+  173  git add .
+  174  git commit -m 'create an empty file'
+  175  git status
+  176  git log
+  177  git revert
+  178  git log --oneline
+  179  git reset 6974e0d
+  180  git log
+  181  git status
+  183  git status
+  184  git switch features-emilycookbacon
+  186  git branch
+  187  git switch feature-emilycookbacon
+  189  git status
+  190  git add /
+  191  git add .
+  192  git commit -m 'create an empty file'
+  193  git push origin feature-emilycookbacon
+  194  git switch main
+  195  git switch feature-emilycookbacon
+  196  git status
+  197  git branch main
+  198  git switch main
+  199  git merge feature-emilycookbacon
+  200  git branch -d feature-emilycookbacon
+  201  git status
+  202  git pull 
+  204  cd git-practice-emilycookbacon/
+  205  git status
+  206  git pull
+  207  git log --oneline > gitlog.txt
+  208  history log --oneline > gitlog.txt
+  209  history 0 log --oneline > gitlog.txt
+  210  history | grep git > history.txt
+  211  git status
+  212  git add .
+  213  git commit -m 'add gitlog and history file'
+  214  git status
+  215  git push -u origin main
+  216  git status
+  217  git commit -m 'add text to file_2'
+  218  git add .
+  219  git commit -m 'add text to file_2'
+  220  git status
+  221  git add .
+  222  git commit -m 'add new text to file_1'
+  223  git status
+  224  git add .
+  225  git commit -m 'delete two blank lines in file_2'
+  226  git status
+  227  git status
+  228  git add .
+  229  git commit -m 'added to the previous sentence in file_1'
+  230  git status
+  231  git status
+  232  git add .
+  233  git commit -m 'add another line of text'
+  235  rm gitlog.txt
+  236  git status
+  237  git add . 
+  238  git commit -m 'delete gitlog and history to make room for updated ones'
+  239  git log --oneline > gitlog.txt
+  240  git status
+  241  history | grep git > history.txt

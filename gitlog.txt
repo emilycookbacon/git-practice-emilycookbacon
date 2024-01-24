@@ -1,0 +1,25 @@
+ab060e7 delete gitlog and history to make room for updated ones
+97b2556 add another line of text
+23ec841 added to the previous sentence in file_1
+3255efb delete two blank lines in file_2
+04ca90d add new text to file_1
+c632d2e add text to file_2
+64700cf add gitlog and history file
+3eabda0 Merge pull request #1 from jessahal/feature-jessahal
+bb1bcd5 add file to emily's repo
+afa4caf merge features branch with main and resolve merge conflict
+338a233 change text to some new text
+c5fc5cb change text in new_features
+ba70bc7 Merge branch 'features' with added txt file
+7b94746 add a new line to file_1
+b662644 add text to new_features text
+9f680bf add empty file
+1312b58 added and removed a new txt file
+c3945cb add empty file
+4a17a4c add additional text to file_1 and file_2 while practicing a new branch
+a4e0b57 add additional text and changes to file_1 and file_2
+6cd556b add a Readme file
+fd93555 add gitingore and add api-keys to gitignore
+c06e396 Adds another line text change
+2e3ab20 add title sentances to file1 and file2
+917a0ce Create file_1 and file_2 after initializing git
